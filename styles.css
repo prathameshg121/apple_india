@@ -1,0 +1,85 @@
+*{
+ 
+   box-sizing: border-box;
+   margin :0;
+   padding: 0;
+
+}
+
+
+.nav_links li, a, button, i{
+   font-family: sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   color : #f5f5f7;
+}
+
+header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px 10%;
+   background-color: rgba(0,0,0,0.8) ;
+}
+
+.nav_links  {
+   list-style: none;
+}
+a{
+   text-decoration: none;
+}
+.nav_links li {
+   display: inline-block;
+   padding:  0px 20px;
+}
+
+.nav_links li :hover{
+   color : white;
+}
+
+.offer-info{
+   background-color: #f5f5f7;
+   text-align: center;
+   font-size: 17px;
+   height: 28px;
+}
+
+
+
+/* 
+header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px 10%;
+}
+
+.navdiv{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   background-color: rgba(0,0,0,0.8) ;
+   color : #f5f5f7;
+   font-size: 14px;
+}
+
+.navbar-links ul{
+   width: auto;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li{
+   list-style: none;
+   text-align: center;
+}
+
+.navbar-links li a{
+   
+   text-decoration: none;
+   color: #f5f5f7;
+   padding: 1rem;
+   display: block;
+} */
