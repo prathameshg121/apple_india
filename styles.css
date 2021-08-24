@@ -3,6 +3,7 @@
    box-sizing: border-box;
    margin :0;
    padding: 0;
+   font-family: 'Roboto', sans-serif;
 
 }
 
@@ -65,6 +66,8 @@ color: blue;
    position: absolute;
   width: 100%;
   text-align: center;
+  margin-top: 80px;
+  font-size: 150%;
 }
 
 .blackv{
@@ -118,3 +121,8 @@ color: blue;
 .col-item li{
    list-style: none;
 }
+.col-item ul{
+   margin-top: 2px;
+   padding: 8%;
+}
+
