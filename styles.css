@@ -109,3 +109,12 @@ color: blue;
 .col-container{
    display: flex;
 }
+
+.col-item{
+   margin: auto;
+   padding: 20px;
+
+}
+.col-item li{
+   list-style: none;
+}
